@@ -1,0 +1,23 @@
+form{
+    width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.caja{
+    text-align: right;
+    padding: 7px;
+    padding-right: 40px;
+    padding-left: 15px;
+
+}
+.label{
+    padding: 3mm;
+    color: aliceblue;
+    font-size: 20px;
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fondo.css">
+    <title>Formulario</title>
+    <script
+    defer
+    src="https://app.embed.im/snow.js"
+    ></script>
+</head>
+<body>
+            <form action="mensaje.html" method="post">
+                <fieldset>
+                    <legend style="color: rgb(23, 2, 2);">Registro de producto</legend>
+                    <div class="caja">
+                    <label class="label">Codigo:</label>
+                    <input type="text" id="codigo"/>  
+                    </div>
+                    <div class="caja">
+                    <label class="label">Descripcion:</label>
+                    <input type="text" id="descripcion"/>
+                    </div>
+                    <div class="caja">
+                    <label class="label">Codigo de barra:</label> 
+                    <input type="text" id="codbarra"/>
+                    </div>
+                    <div class="caja">
+                    <label class="label">Precio Unitario:</label>
+                    <input type="text" id="preciounitario"/>
+                    </div>
+                    <div class="caja">
+                    <label class="label">Stock:</label>
+                    <input type="text" id="stock"/>
+                    </div>
+                    <div class="caja">
+                    <label class="label">Proveedor:</label>
+                    <input type="text" id="proveedor"/>
+                    </div>
+                    <div class="caja" style="margin-top: 2mm;">
+                    <label style="padding: 3mm;color: aliceblue;font-size: 20px;">Estado:</label>
+                    <input type="checkbox" id="estado" style="margin-right: 0cm;"/>
+                    <label style="margin-right: 2.8cm;color: aliceblue;">Activo</label>
+                    </div>
+                    <div class="caja">
+                    <label class="label">Categoria:</label>
+                    <select name="categoria" style="width: 170px; float: right;padding: 3px;">                
+                        <option value="cat1">Categoria 1</option>
+                        <option value="cat2">Categoria 2</option>
+                        <option value="cat3">Categoria 3</option>
+                        <option value="cat4">Categoria 4</option>
+                    </select>
+                    </div>
+                    
+                    <div  style="margin-top: 2cm;">
+                    <a href="mensaje.html"><input type="button" id="submit" value="Guardar"/></a>
+                    <a href="index.html"><input type="button" value="Cancelar" style="float: right;"/></a>
+                    </div>
+            </fieldset>
+            </form>
+</body>
+</html>

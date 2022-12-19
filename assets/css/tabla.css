@@ -1,0 +1,13 @@
+table,td,th{
+    border: 2px solid black;
+    text-align: center;
+    padding: 2px;
+
+}
+th{
+    background-color: aliceblue;
+}
+td{
+    background-color: rgb(133, 17, 17);
+    color: aliceblue;
+}
